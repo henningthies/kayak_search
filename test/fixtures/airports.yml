@@ -1,0 +1,52 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+ham:
+  id: 340
+  airportid: 342
+  iata_code: HAM
+  icao_code: EDDH
+  name: Hamburg
+  city: Hamburg
+  country: Germany
+  lat: 53.630389
+  lng: 9.988228
+  incommings: 33
+  outgoings: 33
+
+bkk:
+  id: 3787
+  airportid: 3885
+  iata_code: BKK
+  icao_code: VTBS
+  name: Suvarnabhumi Intl
+  city: Bangkok
+  country: Thailand
+  lat: 13.681108
+  lng: 100.747283
+  incommings: 33
+  outgoings: 33
+  
+lhr:
+  id: 504
+  airportid: 507
+  iata_code: LHR
+  icao_code: EGLL
+  name: Heathrow
+  city: London
+  country: United Kingdom
+  lat: 51.4775
+  lng: -0.461389
+  incommings: 33
+  outgoings: 33
+  
+bre:
+  id: 351
+  airportid: 305
+  iata_code: BRE
+  icao_code: EDDW
+  name: Bremen
+  city: Bremen
+  country: Germany
+  lat: 53.0475
+  lng: 8.78667
+  incommings: 42
+  outgoings: 41

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Vary: Accept-Language
+Date: Wed, 10 Mar 2010 16:53:31 GMT
+Server: mafe
+Cache-Control: private, x-gzip-ok=""
+X-XSS-Protection: 0
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<search>
+  <url>![CDATA[http://www.kayak.com/s/basic?apimode=1&amp;searchid=SzzO3S&amp;c=10]]</url>
+  <searchid>SzzO3S</searchid>
+</search>

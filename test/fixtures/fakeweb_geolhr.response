@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Vary: Accept-Language
+Date: Wed, 10 Mar 2010 16:52:56 GMT
+Server: mafe
+Cache-Control: private, x-gzip-ok=""
+X-XSS-Protection: 0
+Transfer-Encoding: chunked
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>London</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Westminster, London, UK</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>GB</CountryNameCode><CountryName>United Kingdom</CountryName><AdministrativeArea><AdministrativeAreaName>Greater London</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Westminster</SubAdministrativeAreaName><Locality><LocalityName>London</LocalityName></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="51.5140423" south="51.4862583" east="-0.0942214" west="-0.1582510" />
+    </ExtendedData>
+    <Point><coordinates>-0.1262362,51.5001524,0</coordinates></Point>
+  </Placemark>
+</Response></kml>

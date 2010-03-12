@@ -1,0 +1,13 @@
+<% if @flight.kayak_request.more_pending == "true" %>
+<li id="loading">Flüge werden geladen.
+	<%= periodically_call_remote(:update => "results",:frequency => 3, :method => :get, :url => "#{@flight.id}" , :variable => 'updater', :complete => "updater.stop();") %>
+</li>
+<% end %>
+<% cache do  %>
+<% kayak_result = KayakResult.new; @results = kayak_result.parse_xml(@flight) %>
+<% if @results.empty? && @flight.kayak_request.more_pending == "false" %>
+<li id="not_found">keine Flüge gefunden</li>
+<% else %>
+<%= render :partial => "result", :collection => @results %>
+<% end %>
+<% end %>

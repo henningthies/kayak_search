@@ -1,0 +1,611 @@
+<?xml version="1.0"?>
+<searchresult>
+  <searchinstance/>
+  <searchid>QdCS5C</searchid>
+  <count>15</count>
+  <morepending>false</morepending>
+<!-- api results -->
+   <trips>
+                   <trip id="ff629eb8fef2db22b4570850a55e4b8e">
+        <price url="/book/flight?code=ec018951af.Spz_Dd.0.F.LH.128380.ff629eb8fef2db22b4570850a55e4b8e&amp;_sid_=17-Jmuz2rajdyYtbpnpmgKz" currency="USD">1284</price>
+        <legs>
+           <leg>
+            <airline>LH</airline>
+            <airline_display>Lufthansa</airline_display>
+            <orig>BRE</orig>
+            <dest>BRN</dest>
+            <depart>2010/03/05 06:50</depart>
+            <arrive>2010/03/05 10:30</arrive>
+            <stops>1</stops>
+            <duration_minutes>220</duration_minutes>
+            <cabin>Mixed</cabin>
+            <segment>
+              <airline>LH</airline>
+              <flight>361</flight>
+              <duration_minutes>75</duration_minutes>
+              <equip>Airbus A320-100/200</equip>
+              <miles>350</miles>
+              <dt>2010/03/05 06:50</dt>
+              <o>BRE</o>
+              <at>2010/03/05 08:05</at>
+              <d>MUC</d>
+              <cabin>Business</cabin>
+            </segment>
+            <segment>
+              <airline>LH</airline>
+              <flight>9506</flight>
+              <duration_minutes>70</duration_minutes>
+              <equip>Fairchild Dornier Do.328</equip>
+              <miles>222</miles>
+              <dt>2010/03/05 09:20</dt>
+              <o>MUC</o>
+              <at>2010/03/05 10:30</at>
+              <d>BRN</d>
+              <cabin>Economy</cabin>
+            </segment>
+          </leg>
+         </legs>
+      </trip>
+                   <trip id="c48fdc464ed1bed9d6c0bb9ca2e5a552">
+        <price url="/book/flight?code=845ded8f9e.Spz_Dd.0.F.ORBITZAIR.131289.c48fdc464ed1bed9d6c0bb9ca2e5a552&amp;_sid_=17-Jmuz2rajdyYtbpnpmgKz" currency="USD">1313</price>
+        <legs>
+           <leg>
+            <airline>MULT</airline>
+            <airline_display>Multiple Airlines</airline_display>
+            <orig>HAM</orig>
+            <dest>BSL</dest>
+            <depart>2010/03/05 18:15</depart>
+            <arrive>2010/03/05 22:13</arrive>
+            <stops>1</stops>
+            <duration_minutes>238</duration_minutes>
+            <cabin>Economy</cabin>
+            <segment>
+              <airline>LH</airline>
+              <flight>4666</flight>
+              <duration_minutes>60</duration_minutes>
+              <equip>Canadair Regional Jet 200</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 18:15</dt>
+              <o>HAM</o>
+              <at>2010/03/05 19:15</at>
+              <d>AMS</d>
+              <cabin>Economy</cabin>
+            </segment>
+            <segment>
+              <airline>AF</airline>
+              <flight>5203</flight>
+              <duration_minutes>88</duration_minutes>
+              <equip>Avro RJ85 Avroliner</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 20:45</dt>
+              <o>AMS</o>
+              <at>2010/03/05 22:13</at>
+              <d>BSL</d>
+              <cabin>Economy</cabin>
+            </segment>
+          </leg>
+         </legs>
+      </trip>
+                   <trip id="bcd0ed551e755a603303af0cef549873">
+        <price url="/book/flight?code=19a0cc6aa7.Spz_Dd.0.F.ORBITZAIR.131289.bcd0ed551e755a603303af0cef549873&amp;_sid_=17-Jmuz2rajdyYtbpnpmgKz" currency="USD">1313</price>
+        <legs>
+           <leg>
+            <airline>MULT</airline>
+            <airline_display>Multiple Airlines</airline_display>
+            <orig>HAM</orig>
+            <dest>BSL</dest>
+            <depart>2010/03/05 07:00</depart>
+            <arrive>2010/03/05 13:58</arrive>
+            <stops>1</stops>
+            <duration_minutes>418</duration_minutes>
+            <cabin>Economy</cabin>
+            <segment>
+              <airline>LH</airline>
+              <flight>4660</flight>
+              <duration_minutes>60</duration_minutes>
+              <equip>Canadair Regional Jet 200</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 07:00</dt>
+              <o>HAM</o>
+              <at>2010/03/05 08:00</at>
+              <d>AMS</d>
+              <cabin>Economy</cabin>
+            </segment>
+            <segment>
+              <airline>AF</airline>
+              <flight>5201</flight>
+              <duration_minutes>88</duration_minutes>
+              <equip>Avro RJ85 Avroliner</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 12:30</dt>
+              <o>AMS</o>
+              <at>2010/03/05 13:58</at>
+              <d>BSL</d>
+              <cabin>Economy</cabin>
+            </segment>
+          </leg>
+         </legs>
+      </trip>
+                   <trip id="b96a5ce48c9f520ad35ae12068c5fa98">
+        <price url="/book/flight?code=691506ab3b.Spz_Dd.0.F.ORBITZAIR.131289.b96a5ce48c9f520ad35ae12068c5fa98&amp;_sid_=17-Jmuz2rajdyYtbpnpmgKz" currency="USD">1313</price>
+        <legs>
+           <leg>
+            <airline>MULT</airline>
+            <airline_display>Multiple Airlines</airline_display>
+            <orig>HAM</orig>
+            <dest>BSL</dest>
+            <depart>2010/03/05 14:50</depart>
+            <arrive>2010/03/05 22:13</arrive>
+            <stops>1</stops>
+            <duration_minutes>443</duration_minutes>
+            <cabin>Economy</cabin>
+            <segment>
+              <airline>LH</airline>
+              <flight>4664</flight>
+              <duration_minutes>60</duration_minutes>
+              <equip>Canadair Regional Jet 200</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 14:50</dt>
+              <o>HAM</o>
+              <at>2010/03/05 15:50</at>
+              <d>AMS</d>
+              <cabin>Economy</cabin>
+            </segment>
+            <segment>
+              <airline>AF</airline>
+              <flight>5203</flight>
+              <duration_minutes>88</duration_minutes>
+              <equip>Avro RJ85 Avroliner</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 20:45</dt>
+              <o>AMS</o>
+              <at>2010/03/05 22:13</at>
+              <d>BSL</d>
+              <cabin>Economy</cabin>
+            </segment>
+          </leg>
+         </legs>
+      </trip>
+                   <trip id="a8aa778c2be3cf2347901eb5be918aef">
+        <price url="/book/flight?code=2112d04797.Spz_Dd.0.F.ORBITZAIR.132799.a8aa778c2be3cf2347901eb5be918aef&amp;_sid_=17-Jmuz2rajdyYtbpnpmgKz" currency="USD">1328</price>
+        <legs>
+           <leg>
+            <airline>MULT</airline>
+            <airline_display>Multiple Airlines</airline_display>
+            <orig>HAM</orig>
+            <dest>ACH</dest>
+            <depart>2010/03/05 16:40</depart>
+            <arrive>2010/03/05 20:50</arrive>
+            <stops>1</stops>
+            <duration_minutes>250</duration_minutes>
+            <cabin>Economy</cabin>
+            <segment>
+              <airline>AB</airline>
+              <flight>8330</flight>
+              <duration_minutes>85</duration_minutes>
+              <equip>Boeing 737-800</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 16:40</dt>
+              <o>HAM</o>
+              <at>2010/03/05 18:05</at>
+              <d>VIE</d>
+              <cabin>Economy</cabin>
+            </segment>
+            <segment>
+              <airline>OS</airline>
+              <flight>593</flight>
+              <duration_minutes>75</duration_minutes>
+              <equip>De Havilland Canada DHC-8-400 Dash 8Q</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 19:35</dt>
+              <o>VIE</o>
+              <at>2010/03/05 20:50</at>
+              <d>ACH</d>
+              <cabin>Economy</cabin>
+            </segment>
+          </leg>
+         </legs>
+      </trip>
+                   <trip id="140d5587788919f2fbe7d69ae4968fcc">
+        <price url="/book/flight?code=5644f293cf.Spz_Dd.0.F.ORBITZAIR.151649.140d5587788919f2fbe7d69ae4968fcc&amp;_sid_=17-Jmuz2rajdyYtbpnpmgKz" currency="USD">1516</price>
+        <legs>
+           <leg>
+            <airline>OS</airline>
+            <airline_display>Austrian Airlines</airline_display>
+            <orig>HAM</orig>
+            <dest>ACH</dest>
+            <depart>2010/03/05 17:35</depart>
+            <arrive>2010/03/05 20:50</arrive>
+            <stops>1</stops>
+            <duration_minutes>195</duration_minutes>
+            <cabin>Economy</cabin>
+            <segment>
+              <airline>OS</airline>
+              <flight>7256</flight>
+              <duration_minutes>90</duration_minutes>
+              <equip>Canadair Regional Jet 700</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 17:35</dt>
+              <o>HAM</o>
+              <at>2010/03/05 19:05</at>
+              <d>VIE</d>
+              <cabin>Economy</cabin>
+            </segment>
+            <segment>
+              <airline>OS</airline>
+              <flight>593</flight>
+              <duration_minutes>75</duration_minutes>
+              <equip>De Havilland Canada DHC-8-400 Dash 8Q</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 19:35</dt>
+              <o>VIE</o>
+              <at>2010/03/05 20:50</at>
+              <d>ACH</d>
+              <cabin>Economy</cabin>
+            </segment>
+          </leg>
+         </legs>
+      </trip>
+                   <trip id="21241a6349501a3d905d0d8e2447d47a">
+        <price url="/book/flight?code=d25d0fcada.Spz_Dd.0.F.ORBITZAIR.151649.21241a6349501a3d905d0d8e2447d47a&amp;_sid_=17-Jmuz2rajdyYtbpnpmgKz" currency="USD">1516</price>
+        <legs>
+           <leg>
+            <airline>OS</airline>
+            <airline_display>Austrian Airlines</airline_display>
+            <orig>HAM</orig>
+            <dest>ACH</dest>
+            <depart>2010/03/05 13:25</depart>
+            <arrive>2010/03/05 18:45</arrive>
+            <stops>1</stops>
+            <duration_minutes>320</duration_minutes>
+            <cabin>Economy</cabin>
+            <segment>
+              <airline>OS</airline>
+              <flight>7254</flight>
+              <duration_minutes>90</duration_minutes>
+              <equip>Canadair Regional Jet 700</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 13:25</dt>
+              <o>HAM</o>
+              <at>2010/03/05 14:55</at>
+              <d>VIE</d>
+              <cabin>Economy</cabin>
+            </segment>
+            <segment>
+              <airline>OS</airline>
+              <flight>591</flight>
+              <duration_minutes>80</duration_minutes>
+              <equip>De Havilland Canada DHC-8-400 Dash 8Q</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 17:25</dt>
+              <o>VIE</o>
+              <at>2010/03/05 18:45</at>
+              <d>ACH</d>
+              <cabin>Economy</cabin>
+            </segment>
+          </leg>
+         </legs>
+      </trip>
+                   <trip id="b10f9406e3246c5dbdb1f37a1325c1e1">
+        <price url="/book/flight?code=2d0310e616.Spz_Dd.0.F.ORBITZAIR.151649.b10f9406e3246c5dbdb1f37a1325c1e1&amp;_sid_=17-Jmuz2rajdyYtbpnpmgKz" currency="USD">1516</price>
+        <legs>
+           <leg>
+            <airline>OS</airline>
+            <airline_display>Austrian Airlines</airline_display>
+            <orig>HAM</orig>
+            <dest>ACH</dest>
+            <depart>2010/03/05 13:25</depart>
+            <arrive>2010/03/05 20:50</arrive>
+            <stops>1</stops>
+            <duration_minutes>445</duration_minutes>
+            <cabin>Economy</cabin>
+            <segment>
+              <airline>OS</airline>
+              <flight>7254</flight>
+              <duration_minutes>90</duration_minutes>
+              <equip>Canadair Regional Jet 700</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 13:25</dt>
+              <o>HAM</o>
+              <at>2010/03/05 14:55</at>
+              <d>VIE</d>
+              <cabin>Economy</cabin>
+            </segment>
+            <segment>
+              <airline>OS</airline>
+              <flight>593</flight>
+              <duration_minutes>75</duration_minutes>
+              <equip>De Havilland Canada DHC-8-400 Dash 8Q</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 19:35</dt>
+              <o>VIE</o>
+              <at>2010/03/05 20:50</at>
+              <d>ACH</d>
+              <cabin>Economy</cabin>
+            </segment>
+          </leg>
+         </legs>
+      </trip>
+                   <trip id="473c76b9b50132774b3eee1409870174">
+        <price url="/book/flight?code=88b70d4279.Spz_Dd.0.F.OS.234050.473c76b9b50132774b3eee1409870174&amp;_sid_=17-Jmuz2rajdyYtbpnpmgKz" currency="USD">2341</price>
+        <legs>
+           <leg>
+            <airline>OS</airline>
+            <airline_display>Austrian Airlines</airline_display>
+            <orig>HAM</orig>
+            <dest>ZRH</dest>
+            <depart>2010/03/05 07:00</depart>
+            <arrive>2010/03/05 11:25</arrive>
+            <stops>1</stops>
+            <duration_minutes>265</duration_minutes>
+            <cabin>Business</cabin>
+            <segment>
+              <airline>OS</airline>
+              <flight>7252</flight>
+              <duration_minutes>90</duration_minutes>
+              <equip>Canadair Regional Jet 700</equip>
+              <miles>476</miles>
+              <dt>2010/03/05 07:00</dt>
+              <o>HAM</o>
+              <at>2010/03/05 08:30</at>
+              <d>VIE</d>
+              <cabin>Business</cabin>
+            </segment>
+            <segment>
+              <airline>OS</airline>
+              <flight>8803</flight>
+              <duration_minutes>90</duration_minutes>
+              <equip>Airbus A320-100/200</equip>
+              <miles>373</miles>
+              <dt>2010/03/05 09:55</dt>
+              <o>VIE</o>
+              <at>2010/03/05 11:25</at>
+              <d>ZRH</d>
+              <cabin>Business</cabin>
+            </segment>
+          </leg>
+         </legs>
+      </trip>
+                   <trip id="015a5bfcd721eff8deef1e83598fbb22">
+        <price url="/book/flight?code=6b9ddb0cc7.Spz_Dd.0.F.ORBITZAIR.235149.015a5bfcd721eff8deef1e83598fbb22&amp;_sid_=17-Jmuz2rajdyYtbpnpmgKz" currency="USD">2351</price>
+        <legs>
+           <leg>
+            <airline>OS</airline>
+            <airline_display>Austrian Airlines</airline_display>
+            <orig>HAM</orig>
+            <dest>ZRH</dest>
+            <depart>2010/03/05 17:35</depart>
+            <arrive>2010/03/05 21:25</arrive>
+            <stops>1</stops>
+            <duration_minutes>230</duration_minutes>
+            <cabin>Economy</cabin>
+            <segment>
+              <airline>OS</airline>
+              <flight>7256</flight>
+              <duration_minutes>90</duration_minutes>
+              <equip>Canadair Regional Jet 700</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 17:35</dt>
+              <o>HAM</o>
+              <at>2010/03/05 19:05</at>
+              <d>VIE</d>
+              <cabin>Economy</cabin>
+            </segment>
+            <segment>
+              <airline>OS</airline>
+              <flight>567</flight>
+              <duration_minutes>80</duration_minutes>
+              <equip>Airbus A320-100/200</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 20:05</dt>
+              <o>VIE</o>
+              <at>2010/03/05 21:25</at>
+              <d>ZRH</d>
+              <cabin>Economy</cabin>
+            </segment>
+          </leg>
+         </legs>
+      </trip>
+                   <trip id="d2ca128f3eff1bdc460e37c924b84217">
+        <price url="/book/flight?code=77927acea1.Spz_Dd.0.F.ORBITZAIR.235149.d2ca128f3eff1bdc460e37c924b84217&amp;_sid_=17-Jmuz2rajdyYtbpnpmgKz" currency="USD">2351</price>
+        <legs>
+           <leg>
+            <airline>OS</airline>
+            <airline_display>Austrian Airlines</airline_display>
+            <orig>HAM</orig>
+            <dest>BSL</dest>
+            <depart>2010/03/05 17:35</depart>
+            <arrive>2010/03/05 22:45</arrive>
+            <stops>1</stops>
+            <duration_minutes>310</duration_minutes>
+            <cabin>Economy</cabin>
+            <segment>
+              <airline>OS</airline>
+              <flight>7256</flight>
+              <duration_minutes>90</duration_minutes>
+              <equip>Canadair Regional Jet 700</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 17:35</dt>
+              <o>HAM</o>
+              <at>2010/03/05 19:05</at>
+              <d>VIE</d>
+              <cabin>Economy</cabin>
+            </segment>
+            <segment>
+              <airline>OS</airline>
+              <flight>475</flight>
+              <duration_minutes>85</duration_minutes>
+              <equip>Canadair Regional Jet</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 21:20</dt>
+              <o>VIE</o>
+              <at>2010/03/05 22:45</at>
+              <d>BSL</d>
+              <cabin>Economy</cabin>
+            </segment>
+          </leg>
+         </legs>
+      </trip>
+                   <trip id="5403531c6ca40e0f65498abb27e37c66">
+        <price url="/book/flight?code=08445e9e7b.Spz_Dd.0.F.ORBITZAIR.235149.5403531c6ca40e0f65498abb27e37c66&amp;_sid_=17-Jmuz2rajdyYtbpnpmgKz" currency="USD">2351</price>
+        <legs>
+           <leg>
+            <airline>OS</airline>
+            <airline_display>Austrian Airlines</airline_display>
+            <orig>HAM</orig>
+            <dest>BSL</dest>
+            <depart>2010/03/05 13:25</depart>
+            <arrive>2010/03/05 18:50</arrive>
+            <stops>1</stops>
+            <duration_minutes>325</duration_minutes>
+            <cabin>Economy</cabin>
+            <segment>
+              <airline>OS</airline>
+              <flight>7254</flight>
+              <duration_minutes>90</duration_minutes>
+              <equip>Canadair Regional Jet 700</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 13:25</dt>
+              <o>HAM</o>
+              <at>2010/03/05 14:55</at>
+              <d>VIE</d>
+              <cabin>Economy</cabin>
+            </segment>
+            <segment>
+              <airline>OS</airline>
+              <flight>473</flight>
+              <duration_minutes>85</duration_minutes>
+              <equip>Canadair Regional Jet</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 17:25</dt>
+              <o>VIE</o>
+              <at>2010/03/05 18:50</at>
+              <d>BSL</d>
+              <cabin>Economy</cabin>
+            </segment>
+          </leg>
+         </legs>
+      </trip>
+                   <trip id="49546419190f8400bfc7d877ec11bd1d">
+        <price url="/book/flight?code=7991176501.Spz_Dd.0.F.ORBITZAIR.235149.49546419190f8400bfc7d877ec11bd1d&amp;_sid_=17-Jmuz2rajdyYtbpnpmgKz" currency="USD">2351</price>
+        <legs>
+           <leg>
+            <airline>OS</airline>
+            <airline_display>Austrian Airlines</airline_display>
+            <orig>HAM</orig>
+            <dest>ZRH</dest>
+            <depart>2010/03/05 13:25</depart>
+            <arrive>2010/03/05 19:00</arrive>
+            <stops>1</stops>
+            <duration_minutes>335</duration_minutes>
+            <cabin>Economy</cabin>
+            <segment>
+              <airline>OS</airline>
+              <flight>7254</flight>
+              <duration_minutes>90</duration_minutes>
+              <equip>Canadair Regional Jet 700</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 13:25</dt>
+              <o>HAM</o>
+              <at>2010/03/05 14:55</at>
+              <d>VIE</d>
+              <cabin>Economy</cabin>
+            </segment>
+            <segment>
+              <airline>OS</airline>
+              <flight>565</flight>
+              <duration_minutes>80</duration_minutes>
+              <equip>Boeing 737-700</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 17:40</dt>
+              <o>VIE</o>
+              <at>2010/03/05 19:00</at>
+              <d>ZRH</d>
+              <cabin>Economy</cabin>
+            </segment>
+          </leg>
+         </legs>
+      </trip>
+                   <trip id="36dce449c444a2b6332cb1a1e374df48">
+        <price url="/book/flight?code=0731057279.Spz_Dd.0.F.ORBITZAIR.235149.36dce449c444a2b6332cb1a1e374df48&amp;_sid_=17-Jmuz2rajdyYtbpnpmgKz" currency="USD">2351</price>
+        <legs>
+           <leg>
+            <airline>OS</airline>
+            <airline_display>Austrian Airlines</airline_display>
+            <orig>HAM</orig>
+            <dest>ZRH</dest>
+            <depart>2010/03/05 13:25</depart>
+            <arrive>2010/03/05 20:40</arrive>
+            <stops>1</stops>
+            <duration_minutes>435</duration_minutes>
+            <cabin>Economy</cabin>
+            <segment>
+              <airline>OS</airline>
+              <flight>7254</flight>
+              <duration_minutes>90</duration_minutes>
+              <equip>Canadair Regional Jet 700</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 13:25</dt>
+              <o>HAM</o>
+              <at>2010/03/05 14:55</at>
+              <d>VIE</d>
+              <cabin>Economy</cabin>
+            </segment>
+            <segment>
+              <airline>OS</airline>
+              <flight>8807</flight>
+              <duration_minutes>80</duration_minutes>
+              <equip>Airbus A321-100/200</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 19:20</dt>
+              <o>VIE</o>
+              <at>2010/03/05 20:40</at>
+              <d>ZRH</d>
+              <cabin>Economy</cabin>
+            </segment>
+          </leg>
+         </legs>
+      </trip>
+                   <trip id="9a2492958ef1275de01e7284a58f9eb7">
+        <price url="/book/flight?code=b278bf5374.Spz_Dd.0.F.CHEAPTICKETS.235149.9a2492958ef1275de01e7284a58f9eb7&amp;_sid_=17-Jmuz2rajdyYtbpnpmgKz" currency="USD">2351</price>
+        <legs>
+           <leg>
+            <airline>OS</airline>
+            <airline_display>Austrian Airlines</airline_display>
+            <orig>HAM</orig>
+            <dest>ZRH</dest>
+            <depart>2010/03/05 13:25</depart>
+            <arrive>2010/03/05 21:25</arrive>
+            <stops>1</stops>
+            <duration_minutes>480</duration_minutes>
+            <cabin>Economy</cabin>
+            <segment>
+              <airline>OS</airline>
+              <flight>7254</flight>
+              <duration_minutes>90</duration_minutes>
+              <equip>Canadair Regional Jet 700</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 13:25</dt>
+              <o>HAM</o>
+              <at>2010/03/05 14:55</at>
+              <d>VIE</d>
+              <cabin>Economy</cabin>
+            </segment>
+            <segment>
+              <airline>OS</airline>
+              <flight>567</flight>
+              <duration_minutes>80</duration_minutes>
+              <equip>Airbus A320-100/200</equip>
+              <miles>-1</miles>
+              <dt>2010/03/05 20:05</dt>
+              <o>VIE</o>
+              <at>2010/03/05 21:25</at>
+              <d>ZRH</d>
+              <cabin>Economy</cabin>
+            </segment>
+          </leg>
+         </legs>
+      </trip>
+
+           </trips>
+</searchresult>

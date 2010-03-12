@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Vary: Accept-Language
+Date: Wed, 10 Mar 2010 16:53:31 GMT
+Server: mafe
+Cache-Control: private, x-gzip-ok=""
+X-XSS-Protection: 0
+Transfer-Encoding: chunked
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Hamburg</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Hamburg, Germany</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>DE</CountryNameCode><CountryName>Deutschland</CountryName><AdministrativeArea><AdministrativeAreaName>Hamburg</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Hamburg</SubAdministrativeAreaName><Locality><LocalityName>Hamburg</LocalityName></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="53.6593331" south="53.4472158" east="10.2483150" west="9.7360774" />
+    </ExtendedData>
+    <Point><coordinates>9.9921962,53.5534074,0</coordinates></Point>
+  </Placemark>
+</Response></kml>

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Vary: Accept-Language
+Date: Wed, 10 Mar 2010 16:53:31 GMT
+Server: mafe
+Cache-Control: private, x-gzip-ok=""
+X-XSS-Protection: 0
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<ident>
+  <uid>1296003993</uid>
+  <sid>27-MZEBH9pIH3djH0xMRDLl</sid>
+  <token>bAfqq0x4X6HD4$GFD8QMkQ</token>
+  <error></error>
+</ident>
