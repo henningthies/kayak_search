@@ -1,10 +1,11 @@
 class FlightsController < ApplicationController
 
   before_filter :check_cache_status, :only => :show 
+
+  cache_sweeper :flight_sweeper, :only => [:update, :create, :destroy] 
   
   def check_cache_status 
     @flight = Flight.find(params[:id])
-
     if @flight.kayak_request.updated_at < 1.day.ago
       @flight.kayak_request.update_attributes(:more_pending => "true")
       spawn_search(@flight) 

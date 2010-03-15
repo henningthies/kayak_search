@@ -6,8 +6,6 @@ task :import_airports => :environment do
   
   FasterCSV.foreach(RAILS_ROOT+"/airports.dat", :col_sep => ",") do |row|
     
-    #puts "airportid:#{row[0]}, Name:#{row[1]}, City:#{row[2]}, Country:#{row[3]}, Iata:#{row[4]}, ICAO:#{row[5]}, lat:#{row[6]}, lng:#{row[7]}"
-    
     airport = Airport.new(:airportid => row[0], :name => row[1], :city => row[2], :country => row[3], :iata_code => row[4], :icao_code => row[5], :lat => row[6], :lng => row[7])
     airport.save
     
@@ -37,17 +35,4 @@ task :get_routes => :environment do
 
   end
   
-end
-
-desc "get missing Coordinates"
-task :get_coordinates => :environment do
-  airports = Airport.find(:all, :conditions => { :lng => nil})
-  airports.each_with_index do |airport, index|
-  
-  #  xml = Nokogiri::XML(open("http://ws.geonames.org/search?q=#{airport.code}&maxRows=1&featureCode=AIRP&style=short"))
-   # airport.lat = xml.xpath("//geoname/lat").text
-   # airport.lng = xml.xpath("//geoname/lng").text
-   # airport.save
-    puts "#{index} missing coordinates: #{airport.code},#{airport.name}, #{airport.location}"
-  end
 end

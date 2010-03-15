@@ -22,7 +22,7 @@ class KayakRequest < ActiveRecord::Base
       price = trip.xpath("price").text.to_f * CURRENCY_RATE
       name = trip.xpath("legs/leg/airline_display").first.text
       url = "http://api.kayak.com/#{trip.xpath("price").first['url']}"
-      results << TripResult.new(name,price.to_i,departure_airport.name, arrival_airport.name, nil, url)
+      results << TripResult.new(name, price.to_i, departure_airport.name, arrival_airport.name, nil, url)
     end
     return shrink_results(results)
   end
@@ -54,6 +54,10 @@ class KayakRequest < ActiveRecord::Base
   def sort_results(results)
     sorted_results = results.sort { |a,b| a.price.to_i <=> b.price.to_i }
     return sorted_results
+  end
+  
+  def cache_key
+    "kayak_requests/#{self.id}" 
   end
   
   

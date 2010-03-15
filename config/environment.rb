@@ -45,7 +45,7 @@ Rails::Initializer.run do |config|
   # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
-  
+  config.load_paths += %W( #{RAILS_ROOT}/app/sweepers )
   config.action_controller.perform_caching = true 
   config.action_controller.cache_store = :file_store, RAILS_ROOT+"/tmp/cache/" 
   
