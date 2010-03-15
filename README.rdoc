@@ -8,10 +8,3 @@ In your config/environment.rb:
 
   ENV['KAYAK_API_KEY'] ||= 'YOUR-API-KEY-HERE'
   
-== TODO
-
-  It defaults to file based store which you will need to set up some kind of cron task to remove old caches.
-  If you set it up to use a memcache store it will roll off the old caches automatically when it reaches the set memory limit.
-  http://railscasts.com/episodes/172-touch-and-cache
-  
-  cache_key
