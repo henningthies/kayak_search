@@ -23,6 +23,8 @@ Rails::Initializer.run do |config|
   config.gem "fastercsv"
   config.gem "fakeweb"
   config.gem 'timecop'
+  config.gem 'hpricot'
+  config.gem 'haml'
   # config.gem "aws-s3", :lib => "aws/s3"
 
   # Only load the plugins named here, in the order given (default is alphabetical).

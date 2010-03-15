@@ -1,7 +1,0 @@
-<ul id="results">
-	<% puts "---view--"+@flight.kayak_request.more_pending  %>
-	<% if @flight.kayak_request.more_pending == "true" %>
-	<li id="loading">Weiter Daten werden geladen...<%=  periodically_call_remote(:update => "results",:frequency => 2,:url => { :action => :show} , :variable => 'updater', :complete => "updater.stop();")%></li>
-	<% end %>
-	<%= render :partial => "result", :collection => @results %>
-</ul>

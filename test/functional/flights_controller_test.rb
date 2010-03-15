@@ -62,13 +62,13 @@ class FlightsControllerTest < ActionController::TestCase
   end
 
   def test_should_cache_show_action
-    @cache.delete("views/test.host/flights/#{@flight.id}") if @cache.exist?("views/test.host/flights/#{@flight.id}")
+    @cache.delete("views/flights/#{@flight.id}") if @cache.exist?("views/flights/#{@flight.id}")
     get :show, :id => @flight.to_param
     assert_tag(:tag => 'li')
-    assert @cache.exist?("views/test.host/flights/#{@flight.id}")
+    assert @cache.exist?("views/flights/#{@flight.id}")
   end
   
-  def test_should_add_reload_to_cache
+  def test_should_expire_to_cache
     @cache.delete("views/test.host/flights/#{@flight.id}") if @cache.exist?("views/test.host/flights/#{@flight.id}")
     @flight.kayak_request.touch
     @flight.kayak_request.more_pending = "false"
@@ -86,17 +86,15 @@ class FlightsControllerTest < ActionController::TestCase
   def test_should_spawn_request
     controller = FlightsController.new
     kayak_search = KayakSearch.new(@flight)
-    controller.send(:make_request, kayak_search, @flight, "test.host")
+    controller.send(:make_request, kayak_search, @flight)
     assert_equal "true", @flight.kayak_request.more_pending
-    controller.send(:make_request, kayak_search,@flight, "test.host")
+    controller.send(:make_request, kayak_search,@flight)
     assert_equal "false", @flight.kayak_request.more_pending
   end
   
   def test_should_render_periodically_call_remote
-    @cache.delete("views/test.host/flights/#{@flight.id}") if @cache.exist?("views/test.host/flights/#{@flight.id}")
-    @flight.kayak_request.touch
-    @flight.kayak_request.more_pending = "true"
-    @flight.kayak_request.save
+    @cache.delete("views/flights/#{@flight.id}") if @cache.exist?("views/flights/#{@flight.id}")
+    @flight.kayak_request.update_attributes(:more_pending => "true")
     get :show, :id => @flight.to_param
     assert_tag :tag => "li", :descendant => { :tag => "script" }
   end
