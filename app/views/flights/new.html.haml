@@ -1,0 +1,21 @@
+%h1 New flight
+
+- form_for(@flight) do |f|
+  .f
+  = f.error_messages
+  %ol.formlist
+    %li
+      = f.label :origin
+      %br
+      = f.text_field :origin
+    %li
+      = f.label :destination
+      %br
+      = f.text_field :destination
+    %li
+      = f.label :depart_date
+      %br
+      = calendar_date_select_tag 'flight[depart_date]', @flight.depart_date.to_s, :embedded => true, :year_range => 0.years.from_now..0.years.from_now
+    %li
+      = f.submit 'Create'
+= link_to 'Back', flights_path

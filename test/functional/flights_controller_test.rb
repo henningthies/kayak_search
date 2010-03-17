@@ -3,11 +3,8 @@ require 'test_helper'
 class FlightsControllerTest < ActionController::TestCase
   
   def setup
-    @flight = Flight.first
+    @flight = flights(:ham_lcy)
     @cache = ActiveSupport::Cache.lookup_store(:file_store , RAILS_ROOT+"/tmp/cache")
-    
-    @flight.kayak_request.xml = File.open(RAILS_ROOT+"/tmp/test.xml").read
-    @flight.kayak_request.save
     
     stub_get(FakewebUrls::SID, "fakeweb_sid.response")
     stub_get(FakewebUrls::SEARCHID, "fakeweb_searchid.response")
@@ -62,23 +59,20 @@ class FlightsControllerTest < ActionController::TestCase
   end
 
   def test_should_cache_show_action
-    @cache.delete("views/flights/#{@flight.id}") if @cache.exist?("views/flights/#{@flight.id}")
+    @cache.delete("views/kayak_requests/#{@flight.kayak_request.id}") if @cache.exist?("views/kayak_requests/#{@flight.kayak_request.id}")
     get :show, :id => @flight.to_param
     assert_tag(:tag => 'li')
-    assert @cache.exist?("views/flights/#{@flight.id}")
+    assert @cache.exist?("views/kayak_requests/#{@flight.kayak_request.id}")
   end
   
-  def test_should_expire_to_cache
-    @cache.delete("views/test.host/flights/#{@flight.id}") if @cache.exist?("views/test.host/flights/#{@flight.id}")
-    @flight.kayak_request.touch
-    @flight.kayak_request.more_pending = "false"
-    @flight.kayak_request.save
-
+  def test_should_expire_cache       
     get :show, :id => @flight.to_param
+    assert @cache.exist?("views/kayak_requests/#{@flight.kayak_request.id}")
     assert_no_tag :tag => "li", :descendant => { :tag => "script" }
     
-    Timecop.freeze(Date.today + 30) do
+    Timecop.travel(Date.today + 30) do  
       get :show, :id => @flight.to_param
+      assert @cache.exist?("views/kayak_requests/#{@flight.kayak_request.id}")
       assert_tag :tag => "li", :descendant => { :tag => "script" }
     end
   end
@@ -93,7 +87,6 @@ class FlightsControllerTest < ActionController::TestCase
   end
   
   def test_should_render_periodically_call_remote
-    @cache.delete("views/flights/#{@flight.id}") if @cache.exist?("views/flights/#{@flight.id}")
     @flight.kayak_request.update_attributes(:more_pending => "true")
     get :show, :id => @flight.to_param
     assert_tag :tag => "li", :descendant => { :tag => "script" }

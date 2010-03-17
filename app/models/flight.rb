@@ -18,10 +18,10 @@ class Flight < ActiveRecord::Base
   def find_airports
     address = "#{self.origin}" 
     geo = Geokit::Geocoders::GoogleGeocoder.geocode(address)  
-    self.departure_airport = Airport.find(:first, :origin =>[geo.lat,geo.lng], :within => 200, :order => "distance asc", :conditions =>  ["airports.incommings>1 AND airports.outgoings>1"]) if geo.success
+    self.departure_airport = Airport.find(:first, :origin =>[geo.lat,geo.lng], :within => 200, :order => "distance asc", :conditions =>  ["airports.incommings > 1 AND airports.outgoings > 1"]) if geo.success
     address = "#{self.destination}" 
     geo = Geokit::Geocoders::GoogleGeocoder.geocode(address)
-    self.arrival_airport = Airport.find(:first, :origin =>[geo.lat,geo.lng], :within => 200, :order => "distance asc", :conditions =>  ["airports.incommings>1 AND airports.outgoings>1"]) if geo.success
+    self.arrival_airport = Airport.find(:first, :origin =>[geo.lat,geo.lng], :within => 200, :order => "distance asc", :conditions =>  ["airports.incommings > 1 AND airports.outgoings > 1"]) if geo.success
   end
   
 end

@@ -2,12 +2,14 @@ class FlightsController < ApplicationController
 
   before_filter :check_cache_status, :only => :show 
 
-  cache_sweeper :flight_sweeper, :only => [:update, :create, :destroy] 
+  cache_sweeper :kayak_request_sweeper, :only => [:update, :create, :destroy, :check_cache_status] 
   
   def check_cache_status 
     @flight = Flight.find(params[:id])
     if @flight.kayak_request.updated_at < 1.day.ago
-      @flight.kayak_request.update_attributes(:more_pending => "true")
+       @flight.kayak_request.update_attributes(:more_pending => "true")
+       cache = ActiveSupport::Cache.lookup_store(:file_store , RAILS_ROOT+"/tmp/cache")
+       cache.delete("views/kayak_requests/#{@flight.kayak_request.id}") if cache.exist?("views/kayak_requests/#{@flight.kayak_request.id}")
       spawn_search(@flight) 
     end
   end
@@ -25,6 +27,9 @@ class FlightsController < ApplicationController
   # GET /flights/1
   # GET /flights/1.xml
   def show
+    unless read_fragment "kayak_requests/#{@flight.kayak_request.id}"
+      @results = @flight.kayak_request.parse_xml
+    end
     respond_to do |format|
       format.html
       format.js { render :partial => "results" }
@@ -111,6 +116,8 @@ class FlightsController < ApplicationController
     count, more_pending, xml = kayak_search.get_xml
     if count >= 1 || count < 1 && more_pending == "false"
       flight.kayak_request.update_attributes(:more_pending => more_pending, :xml => xml)
+      cache = ActiveSupport::Cache.lookup_store(:file_store , RAILS_ROOT+"/tmp/cache")
+      cache.delete("views/kayak_requests/#{flight.kayak_request.id}") if cache.exist?("views/kayak_requests/#{flight.kayak_request.id}")
     end
   end
   

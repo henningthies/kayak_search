@@ -1,0 +1,9 @@
+%li
+  = link_to "<b>#{result.price}&euro;</b> #{result.name}", result.url, :target => "_blank"
+  %br/
+  von 
+  = "#{result.departure_airport}"
+  nach
+  = "#{result.arrival_airport}"
+  %br/
+  = "#{result.count} weitere Angebote mit #{result.name}" if result.count.to_i > 1

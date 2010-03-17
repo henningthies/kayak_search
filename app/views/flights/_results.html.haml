@@ -1,0 +1,9 @@
+- cache @flight.kayak_request do
+  - if @flight.kayak_request.more_pending == "true"
+    %li#loading 
+      Flüge werden geladen.
+      = periodically_call_remote(:update => "results",:frequency => 3, :method => :get, :url => "#{@flight.id}" , :variable => 'updater', :complete => "updater.stop();")
+  - if @results.empty? && @flight.kayak_request.more_pending == "false"
+    %li#not_found keine Flüge gefunden
+  - else
+    = render :partial => "result", :collection => @results

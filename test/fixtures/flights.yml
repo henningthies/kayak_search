@@ -1,8 +1,8 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-ham_lhr:
+ham_lcy:
   id: 1
   origin: Hamburg
   destination: London
   depart_date: 2010-04-02
   departure_airport_id: 340
-  arrival_airport_id: 504
+  arrival_airport_id: 500

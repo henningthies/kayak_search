@@ -1,0 +1,10 @@
+log/*.log
+config/database.yml
+db/*.sqlite3
+rerun.txt 
+public/system/*
+tmp/*
+vendor/gems
+.DS_Store
+.idea
+.rvmrc

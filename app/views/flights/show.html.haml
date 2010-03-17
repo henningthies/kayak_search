@@ -1,0 +1,30 @@
+%p
+  %b Origin: 
+  = h @flight.origin
+  %br
+  %b
+    Departure Airport:
+  = h @flight.departure_airport.name 
+%p
+  %b
+    Destination:
+  = h @flight.destination
+  %br
+  %b
+    Arrival Airport:
+  = h @flight.arrival_airport.iata_code
+  = h @flight.arrival_airport.name
+  = h @flight.arrival_airport.country
+- remote_form_for @flight do |f|
+  %p
+    = f.label :depart_date
+    = h @flight.depart_date
+    %br
+    = calendar_date_select_tag 'flight[depart_date]', @flight.depart_date.to_s, :embedded => true, :year_range => 0.years.from_now..0.years.from_now, :onchange => "this.form.submit();"
+
+
+%ul#results
+  = render :partial => "results"
+= link_to 'Edit', edit_flight_path(@flight)
+|
+= link_to 'Back', flights_path

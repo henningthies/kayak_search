@@ -33,7 +33,7 @@ class FlightTest < ActiveSupport::TestCase
   end
 
   def test_should_find_next_arrival_airport
-     assert_equal "LHR", @flight.arrival_airport.iata_code
+     assert_equal "LCY", @flight.arrival_airport.iata_code
    end
   
 end

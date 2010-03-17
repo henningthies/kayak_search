@@ -15,12 +15,12 @@ class KayakRequest < ActiveRecord::Base
     results = Array.new
     xml = Nokogiri::XML(self.xml)
     xml.xpath("/searchresult/trips/trip").each do |trip|
-      departure_airport = Airport.find(:first, :conditions => {:iata_code => trip.xpath("legs/leg/orig").first.text })
-      departure_airport ||= Airport.new
-      arrival_airport = Airport.find(:first, :conditions => {:iata_code => trip.xpath("legs/leg/dest").last.text})
-      arrival_ariport ||= Airport.new
+      departure_airport = Airport.find_or_create_by_iata_code(trip.xpath("legs/leg/orig").text)
+      departure_airport.name ||= "unbekannt"
+      arrival_airport = Airport.find_or_create_by_iata_code(trip.xpath("legs/leg/dest").text)
+      arrival_airport.name ||= "unbekannt"
       price = trip.xpath("price").text.to_f * CURRENCY_RATE
-      name = trip.xpath("legs/leg/airline_display").first.text
+      name = trip.xpath("legs/leg/airline_display").text
       url = "http://api.kayak.com/#{trip.xpath("price").first['url']}"
       results << TripResult.new(name, price.to_i, departure_airport.name, arrival_airport.name, nil, url)
     end
@@ -59,6 +59,5 @@ class KayakRequest < ActiveRecord::Base
   def cache_key
     "kayak_requests/#{self.id}" 
   end
-  
-  
+
 end
