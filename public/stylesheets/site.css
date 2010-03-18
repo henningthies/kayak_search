@@ -1,0 +1,4 @@
+ul#results { float:left; width: 500px;}
+ul#rss_results {  width:500px; }
+div#rss{ float:left; display:block; }
+div#menu{clear:both;}

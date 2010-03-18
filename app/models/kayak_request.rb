@@ -1,7 +1,12 @@
 require 'net/http'
 require 'open-uri'
 
-class TripResult < Struct.new(:name, :price, :departure_airport, :arrival_airport, :count, :url)
+class TripResult < Struct.new(
+                    :name, 
+                    :price, 
+                    :departure_airport, 
+                    :arrival_airport, 
+                    :url)
 end
 
 
@@ -24,7 +29,7 @@ class KayakRequest < ActiveRecord::Base
       url = "http://api.kayak.com/#{trip.xpath("price").first['url']}"
       results << TripResult.new(name, price.to_i, departure_airport.name, arrival_airport.name, nil, url)
     end
-    return shrink_results(results)
+    return results
   end
   
   def shrink_results(results)

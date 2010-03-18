@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rss version="2.0"  xmlns:kyk="http://www.kayak.com/h/rss/buzzextension">
+   <channel>
+      <title>Kayak Buzz - HAM to LCY</title>
+      <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Forig%3DHAM%26dest%3DLCY%26mc%3DUSD%26dt%3DA%26desthint1%3DLCY%26dest1%3DLCY%26code%3DHAM</link>
+      <description>Kayak Buzz Alerts</description>
+      <language>en-us</language>
+      <pubDate>Tue, 16 Mar 2010 20:00:00 EDT</pubDate>
+      <lastBuildDate>Tue, 16 Mar 2010 20:00:00 EDT</lastBuildDate>
+      <docs>http://api.kayak.com/h/labs/rss</docs>
+      <managingEditor>webmaster@kayak.com</managingEditor>
+      <webMaster>webmaster@kayak.com</webMaster>
+      <item>
+         <title>HAM to LCY &#8364;173 Jul 6 - 9 on SWISS found today</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201007%26dest1%3DLCY%26desthint1%3DLCY</link>
+         <description>HAM to LCY &#8364;173 Jul 6 - 9 on SWISS found today</description>
+         <pubDate>Wed, 17 Mar 2010 13:34:58 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201007%26dest1%3DLCY%26desthint1%3DLCY</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>LCY</kyk:destCode>
+            <kyk:destName>London City Airport</kyk:destName>
+            <kyk:destLocation>London, United Kingdom</kyk:destLocation>
+            <kyk:airline>SWISS</kyk:airline>
+            <kyk:price>173</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>07/6/10</kyk:departDate>
+            <kyk:returnDate>07/9/10</kyk:returnDate>
+      </item>
+   </channel>
+</rss>

@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100309092956) do
+ActiveRecord::Schema.define(:version => 20100318153308) do
 
   create_table "airports", :force => true do |t|
     t.integer  "airportid"
@@ -34,7 +34,8 @@ ActiveRecord::Schema.define(:version => 20100309092956) do
     t.integer  "departure_airport_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "kayak_request_id"
+    t.date     "return_date"
+    t.text     "kayak_search_response", :limit => 2147483647
   end
 
   create_table "kayak_requests", :force => true do |t|
@@ -45,6 +46,13 @@ ActiveRecord::Schema.define(:version => 20100309092956) do
     t.string   "sid"
     t.string   "search_id"
     t.string   "more_pending"
+  end
+
+  create_table "kayak_rsses", :force => true do |t|
+    t.integer  "flight_id"
+    t.text     "xml",        :limit => 2147483647
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

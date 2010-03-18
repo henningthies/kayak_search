@@ -25,6 +25,14 @@
 
 %ul#results
   = render :partial => "results"
-= link_to 'Edit', edit_flight_path(@flight)
-|
-= link_to 'Back', flights_path
+%div#rss
+  %ul#rrs_results
+    %li 
+      Weitere Flüge ab 
+      = h @flight.departure_airport.name
+      - rss_results = @flight.kayak_rss.get_results
+    = render :partial => "rss_result", :collection => rss_results, :as => "result"
+#div#menu
+  = link_to 'Edit', edit_flight_path(@flight)
+  |
+  = link_to 'Back', flights_path

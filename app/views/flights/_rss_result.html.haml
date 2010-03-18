@@ -1,0 +1,10 @@
+%li
+  = link_to "<b>#{rss_result.price}&euro;</b> #{rss_result.name}", rss_result.url, :target => "_blank"
+  %br/
+  nach
+  = "#{rss_result.arrival_airport}"
+  %br/
+  von 
+  = "#{rss_result.depart_date}"
+  bis
+  = "#{rss_result.return_date}"

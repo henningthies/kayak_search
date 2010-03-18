@@ -4,7 +4,7 @@
     %meta{ :content => "text/html;charset=UTF-8", "http-equiv" => "content-type" }
     %title
       Flights: #{h = controller.action_name}
-    = stylesheet_link_tag 'scaffold'
+    = stylesheet_link_tag 'scaffold', 'site'
     = javascript_include_tag :all
     = calendar_date_select_includes 'silver'
   %body

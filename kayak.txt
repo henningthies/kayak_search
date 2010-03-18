@@ -1,0 +1,30 @@
+Kayak_Suche:
+  
+  Flugtage sind fest an den angegeben Tag gebunden
+  Wahl zwischen ganztägig, morgens, mittags, abends
+  Anzahl Reisende
+  Reiseklasse
+  Links in den Ergebnissen führen zu den Buchungsseiten
+  
+  oneway
+  benötigt Iata-Code vom Start- und Zielflughafen
+  benötigt Abflugsdatum
+  
+  return
+  benötigt Iata-Code vom Start- und Zielflughafen
+  benötigt Abflugsdatum und Rückflugsdatum
+  
+
+Kayak_Rss:
+  
+  Keine Suche nötig
+  Flugdatum lässt sich nur auf einen Monat beschränken
+  Ergebnisse beinhalten immer Hin und Rückflüge
+  Währung via parameter übergeben werden
+  Links in den Ergebnissen führt zur KayakSuche
+
+  Suche von Startflughafen zu Zielflughafen
+    
+  Suche von Startflughafen in alle Welt
+  
+  Suche aus aller Welt zum Zielflughafen

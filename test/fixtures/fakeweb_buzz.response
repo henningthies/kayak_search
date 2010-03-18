@@ -1,0 +1,384 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=UTF-8
+Vary: Accept-Language
+Date: Wed, 10 Mar 2010 16:53:31 GMT
+Server: mafe
+Cache-Control: private, x-gzip-ok=""
+X-XSS-Protection: 0
+Transfer-Encoding: chunked
+
+<?xml version="1.0"?>
+<rss version="2.0"  xmlns:kyk="http://www.kayak.com/h/rss/buzzextension">
+   <channel>
+      <title>Kayak Buzz - HAM to &quot;Top 25&quot;  in EUR</title>
+      <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fcode%3DHAM%26mc%3DEUR</link>
+      <description>Kayak Buzz Alerts</description>
+      <language>en-us</language>
+      <pubDate>Tue, 16 Mar 2010 20:00:00 EDT</pubDate>
+      <lastBuildDate>Tue, 16 Mar 2010 20:00:00 EDT</lastBuildDate>
+      <docs>http://api.kayak.com/h/labs/rss</docs>
+      <managingEditor>webmaster@kayak.com</managingEditor>
+      <webMaster>webmaster@kayak.com</webMaster>
+      <item>
+         <title>HAM to LON &#8364;35 May 5 - 8 on easyJet found 2 days ago</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201005%26dest1%3DLON%26desthint1%3DLON</link>
+         <description>HAM to LON &#8364;35 May 5 - 8 on easyJet found 2 days ago</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201005%26dest1%3DLON%26desthint1%3DLON</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>LON</kyk:destCode>
+            <kyk:destName>All airports</kyk:destName>
+            <kyk:destLocation>London, United Kingdom</kyk:destLocation>
+            <kyk:airline>easyJet</kyk:airline>
+            <kyk:price>35</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>05/5/10</kyk:departDate>
+            <kyk:returnDate>05/8/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to STR &#8364;37 Nov 5 - 7 on Air Berlin found 1 day ago</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201011%26dest1%3DSTR%26desthint1%3DSTR</link>
+         <description>HAM to STR &#8364;37 Nov 5 - 7 on Air Berlin found 1 day ago</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201011%26dest1%3DSTR%26desthint1%3DSTR</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>STR</kyk:destCode>
+            <kyk:destName>Echterdingen</kyk:destName>
+            <kyk:destLocation>Stuttgart, Germany</kyk:destLocation>
+            <kyk:airline>Air Berlin</kyk:airline>
+            <kyk:price>37</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>11/5/10</kyk:departDate>
+            <kyk:returnDate>11/7/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to MUC &#8364;57 Mar 10 - 14 on Air Berlin found 1 day ago</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201103%26dest1%3DMUC%26desthint1%3DMUC</link>
+         <description>HAM to MUC &#8364;57 Mar 10 - 14 on Air Berlin found 1 day ago</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201103%26dest1%3DMUC%26desthint1%3DMUC</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>MUC</kyk:destCode>
+            <kyk:destName>Franz Josef Strauss</kyk:destName>
+            <kyk:destLocation>Munich, Germany</kyk:destLocation>
+            <kyk:airline>Air Berlin</kyk:airline>
+            <kyk:price>57</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>03/10/11</kyk:departDate>
+            <kyk:returnDate>03/14/11</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to FRA &#8364;60 May 3 - Jun 14 on Air Berlin found 2 days ago</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201005%26dest1%3DFRA%26desthint1%3DFRA</link>
+         <description>HAM to FRA &#8364;60 May 3 - Jun 14 on Air Berlin found 2 days ago</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201005%26dest1%3DFRA%26desthint1%3DFRA</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>FRA</kyk:destCode>
+            <kyk:destName>Frankfurt</kyk:destName>
+            <kyk:destLocation>Frankfurt am Main, Germany</kyk:destLocation>
+            <kyk:airline>Air Berlin</kyk:airline>
+            <kyk:price>60</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>05/3/10</kyk:departDate>
+            <kyk:returnDate>06/14/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to CGN &#8364;61 Sep 15 - 16 on Air Berlin found today</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201009%26dest1%3DCGN%26desthint1%3DCGN</link>
+         <description>HAM to CGN &#8364;61 Sep 15 - 16 on Air Berlin found today</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201009%26dest1%3DCGN%26desthint1%3DCGN</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>CGN</kyk:destCode>
+            <kyk:destName>K&#246;ln/Bonn</kyk:destName>
+            <kyk:destLocation>Cologne, Germany</kyk:destLocation>
+            <kyk:airline>Air Berlin</kyk:airline>
+            <kyk:price>61</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>09/15/10</kyk:departDate>
+            <kyk:returnDate>09/16/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to DUS &#8364;72 Sep 15 - 16 on Air Berlin found today</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201009%26dest1%3DDUS%26desthint1%3DDUS</link>
+         <description>HAM to DUS &#8364;72 Sep 15 - 16 on Air Berlin found today</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201009%26dest1%3DDUS%26desthint1%3DDUS</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>DUS</kyk:destCode>
+            <kyk:destName>D&#252;sseldorf</kyk:destName>
+            <kyk:destLocation>Duesseldorf, Germany</kyk:destLocation>
+            <kyk:airline>Air Berlin</kyk:airline>
+            <kyk:price>72</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>09/15/10</kyk:departDate>
+            <kyk:returnDate>09/16/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to PAR &#8364;88 Jun 11 - 13 on Air France found 1 day ago</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201006%26dest1%3DPAR%26desthint1%3DPAR</link>
+         <description>HAM to PAR &#8364;88 Jun 11 - 13 on Air France found 1 day ago</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201006%26dest1%3DPAR%26desthint1%3DPAR</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>PAR</kyk:destCode>
+            <kyk:destName>All airports</kyk:destName>
+            <kyk:destLocation>Paris, France</kyk:destLocation>
+            <kyk:airline>Air France</kyk:airline>
+            <kyk:price>88</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>06/11/10</kyk:departDate>
+            <kyk:returnDate>06/13/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to VIE &#8364;88 May 12 - 19 on Lufthansa found today</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201005%26dest1%3DVIE%26desthint1%3DVIE</link>
+         <description>HAM to VIE &#8364;88 May 12 - 19 on Lufthansa found today</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201005%26dest1%3DVIE%26desthint1%3DVIE</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>VIE</kyk:destCode>
+            <kyk:destName>Vienna International</kyk:destName>
+            <kyk:destLocation>Vienna, Austria</kyk:destLocation>
+            <kyk:airline>Lufthansa</kyk:airline>
+            <kyk:price>88</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>05/12/10</kyk:departDate>
+            <kyk:returnDate>05/19/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to ROM &#8364;103 Jun 18 - 21 on Air Berlin found 1 day ago</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201006%26dest1%3DROM%26desthint1%3DROM</link>
+         <description>HAM to ROM &#8364;103 Jun 18 - 21 on Air Berlin found 1 day ago</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201006%26dest1%3DROM%26desthint1%3DROM</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>ROM</kyk:destCode>
+            <kyk:destName>All airports</kyk:destName>
+            <kyk:destLocation>Rome, Italy</kyk:destLocation>
+            <kyk:airline>Air Berlin</kyk:airline>
+            <kyk:price>103</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>06/18/10</kyk:departDate>
+            <kyk:returnDate>06/21/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to PMI &#8364;120 May 2 - 4 on Germanwings found 2 days ago</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201005%26dest1%3DPMI%26desthint1%3DPMI</link>
+         <description>HAM to PMI &#8364;120 May 2 - 4 on Germanwings found 2 days ago</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201005%26dest1%3DPMI%26desthint1%3DPMI</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>PMI</kyk:destCode>
+            <kyk:destName>Palma Mallorca</kyk:destName>
+            <kyk:destLocation>Palma de Mallorca, Spain</kyk:destLocation>
+            <kyk:airline>Germanwings</kyk:airline>
+            <kyk:price>120</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>05/2/10</kyk:departDate>
+            <kyk:returnDate>05/4/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to BCN &#8364;142 Oct 1 - 13 on Multiple Airlines found 1 day ago</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201010%26dest1%3DBCN%26desthint1%3DBCN</link>
+         <description>HAM to BCN &#8364;142 Oct 1 - 13 on Multiple Airlines found 1 day ago</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201010%26dest1%3DBCN%26desthint1%3DBCN</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>BCN</kyk:destCode>
+            <kyk:destName>Barcelona</kyk:destName>
+            <kyk:destLocation>Barcelona, Spain</kyk:destLocation>
+            <kyk:airline>Multiple Airlines</kyk:airline>
+            <kyk:price>142</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>10/1/10</kyk:departDate>
+            <kyk:returnDate>10/13/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to TLS &#8364;147 Sep 15 - 19 on Lufthansa found today</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201009%26dest1%3DTLS%26desthint1%3DTLS</link>
+         <description>HAM to TLS &#8364;147 Sep 15 - 19 on Lufthansa found today</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201009%26dest1%3DTLS%26desthint1%3DTLS</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>TLS</kyk:destCode>
+            <kyk:destName>Blagnac</kyk:destName>
+            <kyk:destLocation>Toulouse, France</kyk:destLocation>
+            <kyk:airline>Lufthansa</kyk:airline>
+            <kyk:price>147</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>09/15/10</kyk:departDate>
+            <kyk:returnDate>09/19/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to BUD &#8364;148 Apr 10 - 12 on Austrian Airlines found 1 day ago</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3DWEEKEND%26dest1%3DBUD%26desthint1%3DBUD</link>
+         <description>HAM to BUD &#8364;148 Apr 10 - 12 on Austrian Airlines found 1 day ago</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3DWEEKEND%26dest1%3DBUD%26desthint1%3DBUD</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>BUD</kyk:destCode>
+            <kyk:destName>Ferihegy</kyk:destName>
+            <kyk:destLocation>Budapest, Hungary</kyk:destLocation>
+            <kyk:airline>Austrian Airlines</kyk:airline>
+            <kyk:price>148</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>04/10/10</kyk:departDate>
+            <kyk:returnDate>04/12/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to BEG &#8364;150 Apr 24 - May 22 on Lufthansa found today</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201004%26dest1%3DBEG%26desthint1%3DBEG</link>
+         <description>HAM to BEG &#8364;150 Apr 24 - May 22 on Lufthansa found today</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201004%26dest1%3DBEG%26desthint1%3DBEG</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>BEG</kyk:destCode>
+            <kyk:destName>Nikola Tesla</kyk:destName>
+            <kyk:destLocation>Belgrade, Serbia</kyk:destLocation>
+            <kyk:airline>Lufthansa</kyk:airline>
+            <kyk:price>150</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>04/24/10</kyk:departDate>
+            <kyk:returnDate>05/22/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to NCE &#8364;166 Jul 13 - 23 on Lufthansa found 2 days ago</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201007%26dest1%3DNCE%26desthint1%3DNCE</link>
+         <description>HAM to NCE &#8364;166 Jul 13 - 23 on Lufthansa found 2 days ago</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201007%26dest1%3DNCE%26desthint1%3DNCE</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>NCE</kyk:destCode>
+            <kyk:destName>Cote D&apos;Azur</kyk:destName>
+            <kyk:destLocation>Nice, France</kyk:destLocation>
+            <kyk:airline>Lufthansa</kyk:airline>
+            <kyk:price>166</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>07/13/10</kyk:departDate>
+            <kyk:returnDate>07/23/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to DUB &#8364;167 Apr 30 - May 2 on Lufthansa found today</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201004%26dest1%3DDUB%26desthint1%3DDUB</link>
+         <description>HAM to DUB &#8364;167 Apr 30 - May 2 on Lufthansa found today</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201004%26dest1%3DDUB%26desthint1%3DDUB</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>DUB</kyk:destCode>
+            <kyk:destName>Dublin</kyk:destName>
+            <kyk:destLocation>Dublin, Ireland</kyk:destLocation>
+            <kyk:airline>Lufthansa</kyk:airline>
+            <kyk:price>167</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>04/30/10</kyk:departDate>
+            <kyk:returnDate>05/2/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to IST &#8364;168 May 13 - 21 on Lufthansa found 1 day ago</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201005%26dest1%3DIST%26desthint1%3DIST</link>
+         <description>HAM to IST &#8364;168 May 13 - 21 on Lufthansa found 1 day ago</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201005%26dest1%3DIST%26desthint1%3DIST</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>IST</kyk:destCode>
+            <kyk:destName>Ataturk</kyk:destName>
+            <kyk:destLocation>Istanbul, Turkey</kyk:destLocation>
+            <kyk:airline>Lufthansa</kyk:airline>
+            <kyk:price>168</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>05/13/10</kyk:departDate>
+            <kyk:returnDate>05/21/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to KBP &#8364;181 Apr 8 - May 25 on Air Baltic found 2 days ago</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201004%26dest1%3DKBP%26desthint1%3DKBP</link>
+         <description>HAM to KBP &#8364;181 Apr 8 - May 25 on Air Baltic found 2 days ago</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201004%26dest1%3DKBP%26desthint1%3DKBP</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>KBP</kyk:destCode>
+            <kyk:destName>Borispol</kyk:destName>
+            <kyk:destLocation>Kiev, Ukraine</kyk:destLocation>
+            <kyk:airline>Air Baltic</kyk:airline>
+            <kyk:price>181</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>04/8/10</kyk:departDate>
+            <kyk:returnDate>05/25/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to BOS &#8364;369 Mar 18 - 30 on Multiple Airlines found 1 day ago</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201003%26dest1%3DBOS%26desthint1%3DBOS</link>
+         <description>HAM to BOS &#8364;369 Mar 18 - 30 on Multiple Airlines found 1 day ago</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201003%26dest1%3DBOS%26desthint1%3DBOS</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>BOS</kyk:destCode>
+            <kyk:destName>Logan International</kyk:destName>
+            <kyk:destLocation>Boston, MA</kyk:destLocation>
+            <kyk:airline>Multiple Airlines</kyk:airline>
+            <kyk:price>369</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>03/18/10</kyk:departDate>
+            <kyk:returnDate>03/30/10</kyk:returnDate>
+      </item>
+      <item>
+         <title>HAM to NYC &#8364;371 Apr 14 - 30 on Delta found 1 day ago</title>
+         <link>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201004%26dest1%3DNYC%26desthint1%3DNYC</link>
+         <description>HAM to NYC &#8364;371 Apr 14 - 30 on Delta found 1 day ago</description>
+         <pubDate>Wed, 17 Mar 2010 13:33:35 EDT</pubDate>
+         <guid>http://api.kayak.com/in?ai=&amp;p=&amp;url=%2Fh%2Fbuzz%2Fview%3Fac%3D%26action%3Dcreate%26airport%3DHAM%26code%3DHAM%26dt%3DA%26t%3D%26mc%3DEUR%26tm%3D201004%26dest1%3DNYC%26desthint1%3DNYC</guid>
+            <kyk:originCode>HAM</kyk:originCode>
+            <kyk:originName>Fuhlsb&#252;ttel</kyk:originName>
+            <kyk:originLocation>Hamburg, Germany</kyk:originLocation>
+            <kyk:destCode>NYC</kyk:destCode>
+            <kyk:destName>All airports</kyk:destName>
+            <kyk:destLocation>New York, NY</kyk:destLocation>
+            <kyk:airline>Delta</kyk:airline>
+            <kyk:price>371</kyk:price>
+            <kyk:currency>EUR</kyk:currency>
+            <kyk:departDate>04/14/10</kyk:departDate>
+            <kyk:returnDate>04/30/10</kyk:returnDate>
+      </item>
+   </channel>
+</rss>
+
